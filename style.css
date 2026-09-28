@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--background);
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     font-family: "Red Hat Display", sans-serif;
