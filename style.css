@@ -1,0 +1,95 @@
+:root {
+    /*  primary   */
+    --background: hsl(225, 100%, 94%);
+    --open-btn: hsl(245, 75%, 52%);
+    /*   neutral   */
+    --hero: hsl(225, 100%, 98%);
+    --plan-background: #F0F0F0;
+    --close-btn: hsl(224, 23%, 55%);
+    --header: hsl(223, 47%, 23%);
+}
+
+/*  =========== default =========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Red Hat Display", sans-serif;
+}
+.order{
+    background-color: var(--hero);
+}
+.hero-header, .hero-info {
+    text-align: center;
+}
+
+
+.hero-header {
+    color: var(--header);
+    font-weight: 900;
+    font-size: 1.685rem;
+    margin: 0 0 0.875em;
+}
+
+.hero-info {
+    margin: 0 0 2em 0;
+}
+
+.preview-items {
+    background-color: var(--plan-background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.9em;
+    padding: 0.75em;
+}
+
+.preview-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.feature-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 2em 3.5em;
+}
+
+
+
+
+
+/* ============ Footer =========== */
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
